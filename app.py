@@ -5,7 +5,7 @@ import requests
 st.set_page_config(page_title="Ringkas.in - Prototipe API", page_icon="📝")
 
 # --- KONFIGURASI API ---
-API_URL = "https://api-inference.huggingface.co/models/csebuetnlp/mT5_multilingual_XLSum"
+API_URL = "https://api-inference.huggingface.co/models/cahya/bert2bert-indonesian-summarization"
 
 # PERUBAHAN: Cara ambil token khusus untuk Streamlit Cloud
 try:
