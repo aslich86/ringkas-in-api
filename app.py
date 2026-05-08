@@ -58,7 +58,6 @@ if st.button("Generate Ringkasan"):
             st.markdown("### Hasil Ringkasan:")
             st.write(result)
             
-            # Info tambahan buat pamer ke kelompok
             st.markdown("---")
             st.caption(f"Model: mT5 | Beams: {num_beams} | Length: {min_len}-{max_len} tokens")
 
